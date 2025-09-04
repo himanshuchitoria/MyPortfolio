@@ -25,7 +25,7 @@ const timeLineData: TimelineItem[] = [
       "Working with facial recognition and comparison algorithms.",
       "Building computer vision systems for security."
     ],
-    dateRange: "2025 – Present",
+    dateRange: "Feb 2025 – May 2025",
     logo: idemiaLogo
   },
   {
