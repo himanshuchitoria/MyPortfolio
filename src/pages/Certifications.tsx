@@ -8,7 +8,8 @@ import pythonessentialsImg from '../images/pythonessentials.png';
 import cloudImg from '../images/Cloud Computing.png';
 import sqlImg from '../images/sql_certificate.png';
 import couresera from '../images/coursera.png';
-// Add your images...
+import data from '../images/datafundamentals.jpg';
+
 
 
 
@@ -17,7 +18,7 @@ const certifications: Certification[] = [
     title: "Python Essentials",
     issuer: "Vityarthi",
     issuedDate: "2023",
-    link: "#", // add actual link if available
+    link: "https://vityarthi.com/certificate_validation", // add actual link if available
    
     image: pythonessentialsImg
   },
@@ -25,7 +26,7 @@ const certifications: Certification[] = [
     title: "Cloud Computing",
     issuer: "NPTEL",
     issuedDate: "2024",
-    link: "#",  // add actual link if available
+    link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS17S45760185730506740",  // add actual link if available
     
     image: cloudImg
   },
@@ -33,17 +34,25 @@ const certifications: Certification[] = [
     title: "Bits and Bytes of Computer Networking",
     issuer: "Google",
     issuedDate: "2023",
-    link: "#",  // add actual link if available
+    link: "https://www.coursera.org/account/accomplishments/records/3ALVY3NKCCXV",  // add actual link if available
     
     image: couresera
+  },
+  {
+    title: "SQL",
+    issuer: "Scaler Academy",
+    issuedDate: "2025",
+    link: "#",  // add actual link if available
+    
+    image: sqlImg
   },
   {
     title: "Data Fundamentals",
     issuer: "IBM",
     issuedDate: "2025",
-    link: "#",  // add actual link if available
+    link: "https://www.credly.com/badges/1dd555a9-e9a4-48df-81bf-c096a916a9d6/linked_in_profile",  // add actual link if available
     
-    image: sqlImg
+    image: data
   },
   // Add more as required, e.g. Bits and Bytes, SQL, etc.
 ];
