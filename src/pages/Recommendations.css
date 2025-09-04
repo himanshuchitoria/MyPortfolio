@@ -7,11 +7,7 @@
   width: 90vw;             /* full viewport width */
   background: transparent;  /* keeps your background */
   margin-left: 100px;
-  background-image: url('https://gamechangerperformancegroup.com/wp-content/uploads/2022/11/experiences-2-1-1024x742.jpg');
   
-  background-repeat: no-repeat;       /* Prevents repeating */
-  background-size: cover;             /* Scales image to cover the entire element */
-  background-position: center center; /* Keeps image centered (optional but recommended) */
 }
 
 /* Styling for the recommendation card */
