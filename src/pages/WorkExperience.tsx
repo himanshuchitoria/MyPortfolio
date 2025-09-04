@@ -115,8 +115,8 @@ const WorkExperience: React.FC = () => (
             item.timelineType === "work"
               ? index === 0
                 ? { background: 'rgb(33, 150, 243)', color: '#fff' }
-                : { background: 'rgb(240, 240, 240)', color: '#fff' }
-              : { background: 'rgb(255, 224, 230)', color: '#fff' }
+                : { background: 'rgb(240, 240, 240)', color: '#141313ff' }
+              : { background: 'rgb(255, 224, 230)', color: '#1b1919ff' }
           }
           contentArrowStyle={
             item.timelineType === "work"
