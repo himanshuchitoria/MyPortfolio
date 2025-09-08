@@ -16,6 +16,7 @@ import Blogs from './pages/Blogs';
 import Certifications from './pages/Certifications';
 import PlacesVisited from './pages/PlacesVisited';
 import Socials from './pages/Socials';
+import Sitemap from './pages/sitemap';
 
 const App: React.FC = () => {
   return (
@@ -35,6 +36,7 @@ const App: React.FC = () => {
       <Route path="/placesvisited" element={<Layout><PlacesVisited /></Layout>} />
       <Route path="/certifications" element={<Layout><Certifications /></Layout>} />
       <Route path="/socials" element={<Layout><Socials /></Layout>} />
+      <Route path="/sitemap" element={<Layout><Sitemap /></Layout>} />
     </Routes>
   );
 };
