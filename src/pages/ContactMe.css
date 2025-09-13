@@ -1,0 +1,233 @@
+/* Futuristic glassmorphism background with faint Netflix red glow */
+.contact-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg,#111 80%,#e5091460 175%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Glass card for all contact info */
+.contact-glasscard {
+  background: rgba(32, 31, 40, 0.82);
+  border-radius: 20px;
+  box-shadow: 0 2px 10px #e5091441, 0 1px 5px #0009;
+  
+  padding: 48px 44px 36px 44px;
+  max-width: 410px;
+  width: 100%;
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: neon-fade-in 0.8s cubic-bezier(.58, .04, .37, 1.01);
+  backdrop-filter: blur(16px) saturate(1.14);
+  -webkit-backdrop-filter: blur(16px) saturate(1.14);
+  position: relative;
+}
+
+@keyframes neon-fade-in {
+  0% { opacity: 0; filter: blur(14px); }
+  100% { opacity: 1; filter: blur(0); }
+}
+
+.badge-glass {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(18,18,20,0.96);
+  border-radius: 16px;
+  padding: 14px 18px 14px 14px;
+  box-shadow: 0 3px 10px #e5091440, 0 1.5px 0 #2d0a10;
+  position: relative;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.badge-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 16px;
+  box-shadow: 0 6px 24px #e5091433, 0 1.5px 0 #252525;
+
+  object-fit: cover;
+  background: #19181c;
+}
+
+.badge-content {
+  text-align: left;
+  position: relative;
+  width: 100%;
+}
+
+.badge-glow {
+  pointer-events: none;
+  position: absolute;
+  left: -21px;
+  top: 50%;
+  width: 11px;
+  height: 11px;
+  background: #e50914;
+  filter: blur(14px);
+  border-radius: 50%;
+  opacity: 0.58;
+  transform: translateY(-61%);
+}
+
+.badge-name {
+  font-size: 1.19rem;
+  font-weight: bold;
+  margin: 4px 0 0 0;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 48px #e5091440;
+}
+.badge-title {
+  font-size: 1.03rem;
+  margin: 0;
+  font-weight: 600;
+  color: #e50914;
+  text-shadow: 0 0px 5px #e5091490;
+}
+.badge-description {
+  font-size: 0.98rem;
+  margin: 3px 0 0 0;
+  color: #ccc;
+  font-family: 'JetBrains Mono', monospace, 'Arial';
+  opacity: 0.94;
+}
+.badge-company {
+  font-size: 0.93rem;
+  color: #e50914;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.badge-link {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg,#e50914 60%, #b92d2b 180%);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 9px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 1.01rem;
+  box-shadow: 0 3px 18px #e5091442, 0 0.5px 0 #2a2222;
+  letter-spacing: 0.04em;
+  border: none;
+  transition: background 0.25s, box-shadow 0.25s, filter 0.27s;
+  filter: brightness(1) drop-shadow(0 0 10px #e5091488);
+}
+.badge-link:hover {
+  background: linear-gradient(90deg,#b92d2b 10%,#e50914 110%);
+  filter: brightness(1.14) drop-shadow(0 0 16px #e50914e0);
+}
+
+.linkedin-icon {
+  margin-right: 7px;
+  font-size: 1.1em;
+}
+
+.contact-header p {
+  font-size: 1.19rem;
+  color: #e8e8e8;
+  margin: 3px 0 20px 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-shadow: 0 2px 24px #e5091432;
+}
+
+.pulse-dot {
+  display: inline-block;
+  vertical-align: middle;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin: 0 6px;
+  background: #e50914;
+  box-shadow: 0 0 12px 3px #e5091477;
+  animation: pulse-dot 1.7s infinite;
+}
+@keyframes pulse-dot {
+  0% { opacity: 0.65; box-shadow: 0 0 9px 1px #e5091467; }
+  50% { opacity: 1; box-shadow: 0 0 24px 5px #e50914dc; }
+  100% { opacity: 0.65; box-shadow: 0 0 9px 1px #e5091477; }
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 18px;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(17,15,23,0.91);
+  padding: 10px 19px;
+  border-radius: 10px;
+  box-shadow: 0 2px 13px #e5091430, 0 0.5px 0 #232323;
+  transition: 
+    transform 0.24s cubic-bezier(.42,.01,.19,.97),
+    background 0.22s, box-shadow 0.22s;
+  cursor: pointer;
+  font-size: 1.06rem;
+}
+.contact-item:hover {
+  transform: scale(1.06) translateY(-2px);
+  box-shadow: 0 8px 24px 1px #e509145C, 0 1px 0 #353535;
+  background: #e5091414;
+}
+
+.contact-icon {
+  font-size: 1.38rem;
+  color: #e50914;
+}
+
+.contact-link {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.2s, text-shadow 0.22s;
+}
+.contact-link:hover {
+  color: #e50914;
+  text-shadow: 0 1px 9px #e50914b8;
+}
+
+.contactfun {
+  margin-top: 32px;
+  font-size: 1.10rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+  
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+.coffee-icon {
+  font-size: 2.13rem;
+  color: #ff9900;
+  animation: swing 1.07s infinite ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes swing {
+  0%, 100% { transform: rotate(0deg);}
+  50% { transform: rotate(33deg);}
+}
+

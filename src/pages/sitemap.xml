@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
+  <url>
+    <loc>https://himanshuchitoria.me/</loc>
+    <lastmod>2025-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Pages directory routes -->
+  <url><loc>https://himanshuchitoria.me/blogs</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://himanshuchitoria.me/certifications</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://himanshuchitoria.me/contactme</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://himanshuchitoria.me/music</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://himanshuchitoria.me/placesvisited</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://himanshuchitoria.me/projects</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://himanshuchitoria.me/reading</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://himanshuchitoria.me/recommendations</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://himanshuchitoria.me/skills</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://himanshuchitoria.me/socials</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://himanshuchitoria.me/workexperience</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- profilePage directory routes -->
+  <url><loc>https://himanshuchitoria.me/profile/continue-watching</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://himanshuchitoria.me/profile/banner</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://himanshuchitoria.me/profile/top-picks</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://himanshuchitoria.me/profile</loc><lastmod>2025-09-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- GitHub repo for documentation/demo -->
+  <url>
+    <loc>https://github.com/himanshuchitoria/myportfolio</loc>
+    <lastmod>2025-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
