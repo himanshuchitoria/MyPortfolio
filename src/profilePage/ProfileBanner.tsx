@@ -7,9 +7,9 @@ import { ProfileBanner as ProfileBannerType } from '../types';
 const bannerData: ProfileBannerType = {
   backgroundImage: { url: "/images/banner.jpg" },
   headline: "My Personal portfolio",
-  resumeLink: { url: "https://drive.google.com/file/d/1Ss6KghUmLk426W473T2SwwSPU6AXcy-l/view?usp=drive_link" },
+  resumeLink: { url: "https://drive.google.com/file/d/1OhG5L7EYo-R6BoMZQjq4mXcEmqA5pIZ5/view?usp=sharing" },
   linkedinLink: "https://linkedin.com/in/himanshuchitoria",
-  profileSummary: "Welcome to my portfolio. Here are my featured projects.",
+  profileSummary: "Welcome to my portfolio. Explore the website to know more about me.",
 };
 
 const MOBILE_BREAKPOINT = 850;
