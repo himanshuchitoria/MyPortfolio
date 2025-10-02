@@ -1,0 +1,2 @@
+// queries/getCertifications.ts
+export {};

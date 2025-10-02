@@ -1,0 +1,44 @@
+.browse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.who-is-watching {
+  color: #fff;
+    font-size: 3.5vw;
+    font-weight: unset;
+    width: 100%;
+    text-align: center;
+}
+
+.profiles {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+  justify-content: center;
+}
+
+.language-toggle{
+    background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  
+}
+@media (max-width: 768px) {
+  .who-is-watching {
+    font-size: 30px;
+  }
+}

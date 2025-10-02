@@ -1,0 +1,435 @@
+{
+  "blogs": {
+    "extracurricular_title": "課外活動",
+    "extracurricular_intro": "教室の外：リーダーシップ、創造性、および技術的好奇心。",
+    "items": [
+      {
+        "title": "デザインチームリーダー",
+        "platform": "データサイエンスクラブ、VITボパール",
+        "date": "2024 - 2025",
+        "description": "クラブイベントとキャンペーンのためのデザイン／ブランディングの主導およびクリエイティブチームの管理。"
+      },
+      {
+        "title": "編集チームメンバー",
+        "platform": "VITボパール",
+        "date": "2023 - 2025",
+        "description": "ニュースレターとブログのためのUI/UXデザインおよびコンテンツ作成に専念。"
+      },
+      {
+        "title": "サイバーセキュリティブートキャンプ",
+        "platform": "サディクアカデミー",
+        "date": "2024",
+        "description": "実践的な倫理的ハッキングとデジタルフォレンジックのトレーニングを修了。"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "スキル",
+    "description": "私が使っているプログラミング言語と技術",
+    "items": []
+  },
+  "projects": {
+    "heading": "プロジェクト",
+    "description": "私の注目すべきプロジェクト",
+    "items": []
+  },
+  
+
+
+  "certifications": {
+    "title": "認定証",
+    "issued": "発行日",
+    "items": [
+      {
+        "key": "python_essentials",
+        "title": "Python基礎",
+        "issuer": "Vityarthi",
+        "issuedDate": "2023",
+        "link": "https://vityarthi.com/certificate_validation"
+      },
+      {
+        "key": "cloud_computing",
+        "title": "クラウドコンピューティング",
+        "issuer": "NPTEL",
+        "issuedDate": "2024",
+        "link": "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS17S45760185730506740"
+      },
+      {
+        "key": "bits_bytes_networking",
+        "title": "コンピューターネットワークの基礎",
+        "issuer": "Google",
+        "issuedDate": "2023",
+        "link": "https://www.coursera.org/account/accomplishments/records/3ALVY3NKCCXV"
+      },
+      {
+        "key": "sql",
+        "title": "SQL",
+        "issuer": "Scaler学院",
+        "issuedDate": "2025",
+        "link": "#"
+      },
+      {
+        "key": "data_fundamentals",
+        "title": "データ基礎",
+        "issuer": "IBM",
+        "issuedDate": "2025",
+        "link": "https://www.credly.com/badges/1dd555a9-e9a4-48df-81bf-c096a916a9d6/linked_in_profile"
+      }
+    ]
+  },
+
+
+
+    "_comment": "This section contains extracurricular activities",
+
+
+  "contactMe": {
+    "name": "ヒマンス・チトリア",
+    "title": "ソフトウェアエンジニア",
+    "summary": "コードとコーヒーで創造的なソリューションを構築。",
+    "companyUniversity": "VITボパール大学",
+    "linkedinLink": "https://linkedin.com/in/himanshuchitoria",
+    "email": "himanshuchitoria88@gmail.com",
+    "phoneNumber": "+91-9896380935",
+    "viewProfile": "プロフィールを見る",
+    "letsCreateRemarkable": "共に素晴らしいものを創りましょう。",
+    "openToCollaboration": "協力を歓迎します。",
+    "connectOverCoffee": "または、コーヒーでも飲みながら繋がりましょう",
+    "collabHeader": "お問い合わせ",
+  "collabMessage": "新しいプロジェクトやクリエイティブなアイデア、またはあなたのビジョンの一部となる機会について話し合うことに前向きです。以下のいずれかのプラットフォームを通じてお気軽にご連絡ください。",
+  "contactMeButton": "メールを送る",
+  "descmainhighlight": "一緒に素晴らしいものを作りましょう！",
+  "descmain": "— 私は情熱的な方々とつながるのが好きで、ウェブプロジェクト、スタートアップのアイデア、あるいは単にクリエイティブな考えを交換することに関心があります。",
+  "descmainlast": "もしビジョンや課題があれば、ぜひご連絡ください！"
+  },
+
+
+
+  "music": {
+    "languagesKnownAndInterests": "話せる言語と興味",
+    "languages": {
+      "hindi": {
+        "name": "ヒンディー語",
+        "level": "母国語"
+      },
+      "english": {
+        "name": "英語",
+        "level": "ビジネスレベル"
+      },
+      "japanese": {
+        "name": "日本語",
+        "level": "学習中 / 興味あり"
+      }
+    }
+  },
+
+
+
+
+   "projects": {
+    "devSync": {
+      "title": "DevSync – リアルタイム開発者コラボレーションツール",
+      "description": "MERNスタック、WebSockets、CRDTを使用したライブコーディングプラットフォーム。共同編集、安全なJWT認証、セッション記録、マルチユーザー同期をサポート。"
+    },
+    "finSave": {
+      "title": "FinSave – AI搭載パーソナルファイナンス管理",
+      "description": "請求書OCR、GPTによる予算分析、マルチアカウント同期、リアルタイムChart.jsダッシュボードを備えたAIベースの財務アプリ。"
+    },
+    "trendHire": {
+      "title": "TrendHire – 履歴書最適化と求人マッチング",
+      "description": "GenAIによる履歴書最適化と求人マッチング、PDF解析、spaCy NLP、ATSキーワード分析機能。"
+    },
+    "potholeDetection": {
+      "title": "Python & CNNによる道路の pothole 検出",
+      "description": "OpenCVとカスタムトレーニングされたCNNを用いた pothole 検出システム。リアルタイム映像ストリーム。90%のリコール率と88%の精度。"
+    },
+    "diseasePrediction": {
+      "title": "機械学習による疾患予測",
+      "description": "4500以上の患者記録を用いたKNNモデルの疾患予測 (95%の精度)、高度な前処理と特徴量エンジニアリング。"
+    },
+    "amazonRedesign": {
+      "title": "Amazonショッピングサイトのリデザイン",
+      "description": "HTML、CSS、JavaScriptを使ったAmazonショッピングサイトのリニューアル。モダンなUI/UX、高度なレスポンシブ機能、30%の読み込み速度向上。"
+    },
+    "portfolioWebsite": {
+      "title": "ポートフォリオサイト",
+      "description": "React、TypeScript、レスポンシブCSSで作成した私の個人開発者ポートフォリオ。"
+    },
+    "allProjects": {
+      "title": "全プロジェクトとオープンソース貢献",
+      "description": "GitHubで公開しているその他のプロジェクト、データサイエンスノートブック、オープンソース作品をご覧ください。"
+    },
+    "visitGithub": "私のGitHubを見る"
+  },
+
+
+
+
+  "reading": {
+    "myInterestInBooks": "私の読書の興味",
+    "intro": "",
+    "books": {
+      "harry_potter": {
+        "title": "ハリー・ポッター シリーズ",
+        "author": "J.K.ローリング",
+        "description": "魔法の世界での友情、勇気、自己発見の旅。"
+      },
+      "atomic_habits": {
+        "title": "アトミック・ハビッツ",
+        "author": "ジェームズ・クリア",
+        "description": "良い習慣を身につけ、悪い習慣を断ち切り、卓越した結果につながる小さな行動をマスターする実践的な戦略を提供します。"
+      }
+    }
+  },
+
+
+
+  "recommendations": {
+    "title": "推薦の言葉",
+    "subtitle": "プロフェッショナルな推薦と証言",
+    "date": "",
+    "contactMessage": "✨  までご連絡ください chitoriahimanshu@gmail.com 😊"
+  },
+
+
+  "skills": {
+    "categories": {
+      "programmingLanguages": "プログラミング言語",
+      "frameworksLibraries": "フレームワーク＆ライブラリ",
+      "cloudDevOps": "クラウド＆DevOps",
+      "databases": "データベース"
+    },
+    "openToLearn": "仕事に役立つ技術スタックは何でも学びます。",
+    "names": {
+      "python": "Python",
+      "javascript": "JavaScript",
+      "java": "Java",
+      "cplusplus": "C++",
+      "html5": "HTML5",
+      "css3": "CSS3",
+      "reactjs": "React.js",
+      "nodejs": "Node.js",
+      "expressjs": "Express.js",
+      "tensorflow": "TensorFlow",
+      "keras": "Keras",
+      "opencv": "OpenCV",
+      "springboot": "Spring Boot",
+      "typescript": "TypeScript",
+      "aws": "AWS",
+      "docker": "Docker",
+      "sqlmysql": "SQL と MySQL",
+      "mongodb": "MongoDB"
+    },
+    "descriptions": {
+      "python": "スクリプト作成、自動化、データサイエンスに精通。",
+      "javascript": "堅牢なウェブ開発と動的なインタラクション。",
+      "java": "エンタープライズアプリケーション、Spring Boot、バックエンドAPI。",
+      "cplusplus": "効率的なアルゴリズムと競技プログラミング。",
+      "html5": "モダンなセマンティックマークアップ。",
+      "css3": "レスポンシブでスタイリッシュなUI/UX。",
+      "reactjs": "インタラクティブでスケーラブルなUIの構築。",
+      "nodejs": "高速でスケーラブルなバックエンドJavaScript。",
+      "expressjs": "Node.jsによるRESTful API。",
+      "tensorflow": "機械学習と深層学習モデル。",
+      "keras": "機械学習と深層学習モデル。",
+      "opencv": "コンピュータビジョンと画像処理。",
+      "springboot": "堅牢なJavaバックエンドマイクロサービス。",
+      "typescript": "型安全なJavaScript。",
+      "aws": "クラウドネイティブアプリとインフラ構築。",
+      "docker": "スケーラブルなコンテナデプロイメント。",
+      "sqlmysql": "リレーショナルデータベースとクエリの取り扱い。",
+      "mongodb": "ドキュメントストアとNoSQL技術。"
+    }
+  },
+
+
+
+   "socials": {
+    "title": "ソーシャル",
+    "socials.instagram": {
+      "ariaLabel": "インスタグラム"
+    },
+    "socials.discord": {
+      "ariaLabel": "ディスコード"
+    },
+    "socials.twitter": {
+      "ariaLabel": "ツイッター"
+    }
+  },
+
+
+   "timeline": {
+    "title": "職歴・学歴タイムライン",
+    "idemia": {
+      "name": "IDEMIA",
+      "title": "インターン – 顔認識／顔比較",
+      "techStack": "Python、OpenCV、機械学習",
+      "summaryPoints": [
+        "顔認識と比較アルゴリズムの開発。",
+        "セキュリティ向けコンピュータビジョンシステムの構築。"
+      ]
+    },
+    "valu5": {
+      "name": "ValU5Healthcare Ltd（Medimag）",
+      "title": "SDEインターン – ブロックチェーンベースの医療DB",
+      "techStack": "Node.js、MongoDB、ブロックチェーン",
+      "summaryPoints": [
+        "ブロックチェーンベースの医療データ保存を実装。",
+        "高速データ取得のために安全なAPIエンドポイントを最適化。"
+      ]
+    },
+    "hitachi": {
+      "name": "日立システムズ株式会社",
+      "title": "インターン – AWSクラウド",
+      "techStack": "AWS、DevOps、クラウドアーキテクチャ",
+      "summaryPoints": [
+        "業務アプリケーション向けにAWSリソースを管理。",
+        "デプロイを自動化しインフラを最適化。"
+      ]
+    },
+    "vit": {
+      "name": "ヴェロール工科大学（ボパール）",
+      "title": "B.Tech、コンピュータサイエンス＆エンジニアリング",
+      "techStack": "",
+      "summaryPoints": [
+        "CGPA: ",
+        "2022 – 2026（予定）"
+      ]
+    },
+    "iitm": {
+      "name": "IITマドラス",
+      "title": "B.Sc. データサイエンス（パートタイム）",
+      "techStack": "",
+      "summaryPoints": [
+        "2023 – 2026（予定）"
+      ]
+    },
+    "arya12": {
+      "name": "Aryaセカンダリースクール チャルキーダドリ",
+      "title": "12年生",
+      "techStack": "",
+      "summaryPoints": [
+        "得点率: 90.4%",
+        "2022"
+      ]
+    },
+    "arya10": {
+      "name": "Aryaセカンダリースクール チャルキーダドリ",
+      "title": "10年生",
+      "techStack": "",
+      "summaryPoints": [
+        "得点率: 89.6%",
+        "2020"
+      ]
+    }
+  },
+
+
+
+
+  "workPermit": {
+    "title": "就労許可証",
+    "nationality": "国籍",
+    "nationalityValue": "インド人",
+    "visaStatus": "有効",
+    "summary": "現在、インドでの就労資格があります。",
+    "additionalInfo": "就労可能な法定年齢です。"
+  },
+
+
+
+
+  "profileBanner": {
+    "headline": "私の個人ポートフォリオ",
+    "profileSummary": "私のポートフォリオへようこそ。注目のプロジェクトを紹介します。",
+    "buttons": {
+      "resume": "履歴書",
+      "linkedin": "リンクトイン"
+    },
+    "overlayClose": "オーバーレイを閉じる",
+    "overlayMessage": "より良い表示のためにデスクトップまたはラップトップをご利用ください"
+  },
+
+
+
+   "topPicks": {
+    "title": "今日のおすすめ",
+    "like": "いいね",
+    "unlike": "いいねを取り消す",
+    "workPermit": "就労許可証",
+    "skills": "スキル",
+    "experience": "経験",
+    "certifications": "認定証",
+    "recommendations": "推薦",
+    "projects": "プロジェクト",
+    "contactMe": "連絡先",
+    "socials": "ソーシャル",
+    "placesVisited": "訪れた場所",
+    "moviesReviews": "映画レビュー＆その他",
+    "languagesKnown": "話せる言語",
+    "reading": "読書"
+  },
+  "profiles": {
+    "recruiter": "リクルーター",
+    "developer": "デベロッパー",
+    "stalker": "ストーカー",
+    "adventurer": "冒険者"
+  },
+
+
+
+
+  "continueWatching": {
+    "title": "続けて見る",
+    "like": "いいね",
+    "unlike": "いいねを取り消す",
+    "languagesKnown": "話せる言語",
+    "reading": "読書",
+    "extraCurricular": "課外活動",
+    "contactMe": "連絡先",
+    "moviesReviews": "映画レビュー＆その他",
+    "dailyNewsUpdates": "日刊ニュース更新",
+    "certifications": "認定証",
+    "socials": "ソーシャル"
+  },
+  "profiles": {
+    "recruiter": "リクルーター",
+    "developer": "デベロッパー",
+    "stalker": "ストーカー",
+    "adventurer": "冒険者"
+  },
+
+
+
+
+
+
+   "navbar": {
+    "home": "ホーム",
+    "professional": "プロフェッショナル",
+    "skills": "スキル",
+    "projects": "プロジェクト",
+    "hireMe": "連絡",
+    "toggleLanguageAria": "言語を切り替え",
+    "profileAlt": "プロフィール"
+  },
+
+
+
+
+
+  "browse": {
+    "whosWatching": "誰が見ていますか？",
+    "toggleLanguageAria": "言語を切り替え"
+  },
+  "profiles": {
+    "recruiter": "リクルーター",
+    "developer": "開発者",
+    "stalker": "ストーカー",
+    "adventurer": "冒険家"
+  }
+
+
+  
+
+}

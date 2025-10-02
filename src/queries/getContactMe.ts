@@ -1,0 +1,2 @@
+// queries/getContactMe.ts
+export {};

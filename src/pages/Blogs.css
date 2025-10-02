@@ -1,0 +1,139 @@
+.blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2.8rem 1.2rem 1.2rem 1.2rem;
+  margin-top: 100px;
+}
+
+.blogs-title {
+  font-size: 2.19rem;
+  color: #e50914;
+  font-weight: 750;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.065em;
+  opacity: 0;
+  animation: blogsDown 0.62s cubic-bezier(.59,.03,.68,1.01) 0.02s forwards;
+  transform: translateY(-20px);
+}
+
+.blogs-intro {
+  font-size: 1.12rem;
+  color: #eee;
+  font-weight: 500;
+  margin-bottom: 2.2rem;
+  max-width: 620px;
+  text-align: center;
+  opacity: 0;
+  animation: blogsFadeIn 0.98s 0.2s forwards;
+  transform: translateY(-8px);
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.1rem;
+  width: 100%;
+  max-width: 940px;
+  justify-items: center;
+}
+
+/* Modern card, inspired by Uiverse "white-octopus-62" */
+.blog-card {
+  border-radius: 1.5rem;
+  background: linear-gradient(110deg, rgba(27,27,27,0.90) 85%, rgba(229,9,20,0.12) 100%);
+  padding: 2.1rem 1.5rem 1.33rem 1.5rem;
+  box-shadow: 0 2.5px 16px rgb(0 0 0 / 12%),
+    0 1.5px 6px rgb(229 9 20 / 5%);
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.3rem;
+  position: relative;
+  transition:
+    transform 0.22s cubic-bezier(.63,.09,.44,.89),
+    box-shadow 0.15s,
+    background 0.18s;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(30px) scale(0.985);
+  animation: blogsCardIn 0.47s forwards cubic-bezier(.59,.03,.68,1.01);
+  animation-delay: var(--delay, 0s);
+  border: 1.5px solid rgba(229,9,20,0.065);
+  outline: none;
+}
+.blog-card:focus-visible,
+.blog-card:hover {
+  transform: scale(1.035) translateY(-3px);
+  box-shadow: 0 8px 26px 0 rgba(229,9,20,0.16),
+    0 1px 7px rgba(10,10,10,0.14);
+  background: linear-gradient(100deg, rgba(48,19,20,0.95) 86%, rgba(190,50,60,0.13) 100%);
+  border-color: #d82424a4;
+}
+
+.blog-icon {
+  font-size: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  color: #e50914;
+  border-radius: 12px;
+  padding: 0.5rem 0.6rem 0.5rem 0.55rem;
+  background: rgba(229,9,20,0.09);
+  box-shadow: 0 1.2px 6px #8a181848;
+}
+
+.blog-info {
+  text-align: left;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.blog-title {
+  font-size: 1.13rem;
+  color: #fff;
+  font-weight: 750;
+  margin-bottom: 0.07rem;
+  letter-spacing: 0.01em;
+}
+
+.blog-description {
+  font-size: 0.9rem;
+  color: #ffe87c;
+  margin-bottom: 0.49rem;
+  font-weight: 520;
+  line-height: 1.38;
+}
+
+.blog-platform {
+  font-size: 0.94rem;
+  color: #d4d4d4;
+  background: rgba(229,9,20,0.075);
+  font-weight: 700;
+  border-radius: 9px;
+  display: inline-block;
+  padding: 1.5px 14px 1.5px 14px;
+  letter-spacing: 0.075em;
+  margin-top: 0.18rem;
+}
+.blog-card, .blog-card * {
+  text-decoration: none !important;
+}
+
+
+/* Animations */
+@keyframes blogsDown {
+  from { opacity: 0; transform: translateY(-20px);}
+  to   { opacity: 1; transform: translateY(0);}
+}
+@keyframes blogsFadeIn {
+  from { opacity: 0; transform: translateY(-8px);}
+  to   { opacity: 1; transform: translateY(0);}
+}
+@keyframes blogsCardIn {
+  from { opacity: 0; transform: translateY(30px) scale(0.985);}
+  to   { opacity: 1; transform: translateY(0) scale(1);}
+}

@@ -1,0 +1,2 @@
+// queries/getProfileBanner.ts
+export {};

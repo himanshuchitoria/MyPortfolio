@@ -1,0 +1,2 @@
+// queries/getProjects.ts
+export {};

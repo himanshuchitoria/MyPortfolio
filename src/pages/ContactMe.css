@@ -1,0 +1,227 @@
+/* Background with subtle glassy red gradient */
+.contact-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #111 80%, #e5091460 175%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Horizontal glass card container */
+.contact-glasscard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(36, 20, 155, 0.82);
+  border-radius: 20px;
+  box-shadow: 0 2px 10px #e5091441, 0 1px 5px #0009;
+  padding: 36px 48px;
+  max-width: 720px;
+  width: 100%;
+  backdrop-filter: blur(16px) saturate(1.14);
+  -webkit-backdrop-filter: blur(16px) saturate(1.14);
+  position: relative;
+  animation: neon-fade-in 0.8s cubic-bezier(.58, .04, .37, 1.01);
+  gap: 36px;
+}
+
+/* Profile image as circular avatar */
+.badge-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  box-shadow: 0 6px 24px #e5091433, 0 1.5px 0 #252525;
+  object-fit: cover;
+  background: #19181c;
+  flex-shrink: 0;
+  margin-left: 23px;
+}
+
+/* Content container for text */
+.badge-content {
+  flex: 1;
+  color: #080808;
+  text-align: left;
+  position: relative;
+}
+
+.badge-glass{
+  background-color: white;
+  width: 800px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Red glowing dot element */
+.badge-glow {
+  position: absolute;
+  left: -12px;
+  top: 16px;
+  width: 14px;
+  height: 14px;
+  background: #e50914;
+  filter: blur(14px);
+  border-radius: 50%;
+  opacity: 0.58;
+}
+
+/* Name styling */
+.badge-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 8px 0;
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 48px #e5091440;
+}
+
+/* Title styling */
+.badge-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #e50914;
+  text-shadow: 0 0 5px #e5091490;
+}
+
+/* Summary and company text */
+.badge-description,
+.badge-company {
+  font-family: 'JetBrains Mono', monospace, 'Arial';
+  opacity: 0.9;
+}
+
+.badge-description {
+  font-size: 1rem;
+  color: #ccc;
+  margin: 0 0 14px 0;
+}
+
+.badge-company {
+  font-size: 1rem;
+  color: #e50914;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+/* LinkedIn button */
+.badge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(90deg, #e50914 60%, #b92d2b 180%);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-decoration: none;
+  box-shadow: 0 3px 18px #e5091442, 0 0.5px 0 #2a2222;
+  transition: background 0.25s, box-shadow 0.25s, filter 0.27s;
+  filter: brightness(1) drop-shadow(0 0 10px #e5091488);
+  user-select: none;
+}
+
+.badge-link:hover {
+  background: linear-gradient(90deg, #b92d2b 20%, #e50914 110%);
+  filter: brightness(1.15) drop-shadow(0 0 16px #e50914e0);
+}
+
+.linkedin-icon {
+  font-size: 1.3em;
+}
+
+/* Contact header section */
+.contact-header p {
+  font-size: 1.2rem;
+  color: #e8e8e8;
+  margin: 20px 0 28px 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-shadow: 0 2px 24px #e5091432;
+}
+
+/* Contact details container */
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  margin-top: 4px;
+}
+
+/* Individual contact item */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: rgba(17, 15, 23, 0.91);
+  padding: 14px 22px;
+  border-radius: 12px;
+  box-shadow: 0 2px 13px #e5091430, 0 0.5px 0 #232323;
+  transition: 
+    transform 0.24s cubic-bezier(.42,.01,.19,.97),
+    background 0.22s, box-shadow 0.22s;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.contact-item:hover {
+  transform: scale(1.06) translateY(-2px);
+  box-shadow: 0 8px 24px 1px #e509145C, 0 1px 0 #353535;
+  background: #e5091414;
+}
+
+/* Icons in contact items */
+.contact-icon {
+  font-size: 1.5rem;
+  color: #e50914;
+  flex-shrink: 0;
+}
+
+/* Link style in contact details */
+.contact-link {
+  color: #fff;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: color 0.2s, text-shadow 0.22s;
+}
+
+.contact-link:hover {
+  color: #e50914;
+  text-shadow: 0 1px 9px #e50914b8;
+}
+
+/* Footer connection section */
+.contactfun {
+  margin-top: 36px;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Animated coffee icon */
+.coffee-icon {
+  font-size: 2.25rem;
+  color: #ff9900;
+  animation: swing 1.07s infinite ease-in-out;
+}
+
+/* Animations */
+@keyframes neon-fade-in {
+  0% { opacity: 0; filter: blur(14px); }
+  100% { opacity: 1; filter: blur(0); }
+}
+
+@keyframes swing {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(33deg); }
+}

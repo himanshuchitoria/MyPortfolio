@@ -1,0 +1,450 @@
+{
+  "blogs": {
+    "extracurricular_title": "Extracurricular Activities",
+    "extracurricular_intro": "Beyond the classroom: leadership, creativity, and technical curiosity.",
+    "items": [
+      {
+        "title": "Lead Design Team",
+        "platform": "Data Science Club, VIT Bhopal",
+        "date": "2024 - 2025",
+        "description": "Led design/branding initiatives and managed creative teams for club events and campaigns."
+      },
+      {
+        "title": "Member Editorial Team",
+        "platform": "VIT Bhopal",
+        "date": "2023 - 2025",
+        "description": "Focused on ui/ux design and content creation for newsletters and blogs."
+      },
+      {
+        "title": "Cybersecurity Bootcamp",
+        "platform": "Sadik Academy",
+        "date": "2024",
+        "description": "Completed hands-on ethical hacking and digital forensics training."
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "description": "Programming languages and technologies I work with.",
+    "items": []
+  },
+  "projects": {
+    "heading": "Projects",
+    "description": "Some of my notable projects.",
+    "items": []
+  },
+
+
+
+
+  
+ "certifications": {
+    "title": "Certifications",
+    "issued": "Issued",
+    "items": [
+      {
+        "key": "python_essentials",
+        "title": "Python Essentials",
+        "issuer": "Vityarthi",
+        "issuedDate": "2023",
+        "link": "https://vityarthi.com/certificate_validation"
+      },
+      {
+        "key": "cloud_computing",
+        "title": "Cloud Computing",
+        "issuer": "NPTEL",
+        "issuedDate": "2024",
+        "link": "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS17S45760185730506740"
+      },
+      {
+        "key": "bits_bytes_networking",
+        "title": "Bits and Bytes of Computer Networking",
+        "issuer": "Google",
+        "issuedDate": "2023",
+        "link": "https://www.coursera.org/account/accomplishments/records/3ALVY3NKCCXV"
+      },
+      {
+        "key": "sql",
+        "title": "SQL",
+        "issuer": "Scaler Academy",
+        "issuedDate": "2025",
+        "link": "#"
+      },
+      {
+        "key": "data_fundamentals",
+        "title": "Data Fundamentals",
+        "issuer": "IBM",
+        "issuedDate": "2025",
+        "link": "https://www.credly.com/badges/1dd555a9-e9a4-48df-81bf-c096a916a9d6/linked_in_profile"
+      }
+    ]
+  
+  },
+
+
+
+"contactMe": {
+    "name": "Himanshu Chitoria",
+    "title": "Software Engineer",
+    "summary": "Building imaginative solutions with code and coffee.",
+    "companyUniversity": "VIT Bhopal University",
+    "linkedinLink": "https://linkedin.com/in/himanshuchitoria",
+    "email": "himanshuchitoria88@gmail.com",
+    "phoneNumber": "+91-9896380935",
+    "viewProfile": "View Profile",
+    "letsCreateRemarkable": "Let’s create something remarkable together.",
+    "openToCollaboration": "Open to collaboration.",
+    "connectOverCoffee": "Or let's connect over a coffee",
+    "collabHeader": "CONTACT ME",
+    "collabMessage": "I am open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out through any of the platforms below.",
+    "contactMeButton": "Mail Me",
+    "descmainhighlight":"Let's create something remarkable together!",
+    "descmain":" — I love connecting with passionate minds, whether it's for web projects, startup ideas, or simply exchanging creative thoughts.",
+    "descmainlast":"If you have a vision or challenge, get in touch!"
+  },
+
+
+
+  "music": {
+    "languagesKnownAndInterests": "Languages Known & Interests",
+    "languages": {
+      "hindi": {
+        "name": "Hindi",
+        "level": "Native"
+      },
+      "english": {
+        "name": "English",
+        "level": "Professional"
+      },
+      "japanese": {
+        "name": "Japanese",
+        "level": "Interested / Currently Learning"
+      }
+    }
+  },
+
+
+  "projects": {
+    "devSync": {
+      "title": "DevSync – Real-Time Developer Collaboration Tool",
+      "description": "Live coding platform using MERN stack, WebSockets and CRDT for collaborative editing, secure JWT-based auth, session recording, and multi-user sync."
+    },
+    "finSave": {
+      "title": "FinSave – AI-Based Personal Finance Tracker",
+      "description": "AI-powered finance app with OCR for bills, GPT-based budget analysis, multi-account sync, and real-time Chart.js dashboards."
+    },
+    "trendHire": {
+      "title": "TrendHire – Resume Optimizer & Job Matcher",
+      "description": "GenAI-powered resume optimizer and job matcher with PDF parsing, spaCy NLP, and ATS keyword analytics."
+    },
+    "potholeDetection": {
+      "title": "Pothole Detection using Python & CNN",
+      "description": "Pothole detection system using OpenCV and custom-trained CNN, real-time video stream, 90% recall and 88% precision."
+    },
+    "diseasePrediction": {
+      "title": "Disease Prediction Using ML",
+      "description": "Predictive disease model (KNN, 95% accuracy) on 4500+ patient records, advanced preprocessing, robust feature engineering."
+    },
+    "amazonRedesign": {
+      "title": "Amazon Shopping Website Redesign",
+      "description": "Revamped Amazon shopping site in HTML, CSS and JS with modern UI/UX, advanced responsive features and 30% improved load times."
+    },
+    "portfolioWebsite": {
+      "title": "Portfolio Website",
+      "description": "My personal developer portfolio built with React, TypeScript, and responsive CSS."
+    },
+    "allProjects": {
+      "title": "All Projects & Open Source Contributions",
+      "description": "See more projects, data science notebooks, and open-source work on my GitHub."
+    },
+    "visitGithub": "Visit my GitHub"
+  },
+
+
+  "reading": {
+    "myInterestInBooks": "My Interest in Books",
+    "intro": "",
+    "books": {
+      "harry_potter": {
+        "title": "Harry Potter Series",
+        "author": "J.K. Rowling",
+        "description": "A magical journey of friendship, bravery, and self-discovery in the wizarding world."
+      },
+      "atomic_habits": {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "description": "This book provides practical strategies to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results."
+      }
+    }
+  },
+
+
+
+
+  "recommendations": {
+    "title": "Recommendations",
+    "subtitle": "Professional references and testimonials",
+    "date": "",
+    "contactMessage": "✨ Contact me on chitoriahimanshu@gmail.com 😊"
+  },
+
+
+
+"skills": {
+    "categories": {
+      "programmingLanguages": "Programming Languages",
+      "frameworksLibraries": "Frameworks & Libraries",
+      "cloudDevOps": "Cloud & DevOps",
+      "databases": "Databases"
+    },
+    "openToLearn": "Open to learn any tech stack which will help me in my work.",
+    "names": {
+      "python": "Python",
+      "javascript": "JavaScript",
+      "java": "Java",
+      "cplusplus": "C++",
+      "html5": "HTML5",
+      "css3": "CSS3",
+      "reactjs": "React.js",
+      "nodejs": "Node.js",
+      "expressjs": "Express.js",
+      "tensorflow": "TensorFlow",
+      "keras": "Keras",
+      "opencv": "OpenCV",
+      "springboot": "Spring Boot",
+      "typescript": "TypeScript",
+      "aws": "AWS",
+      "docker": "Docker",
+      "sqlmysql": "SQL and MySQL",
+      "mongodb": "MongoDB"
+    },
+    "descriptions": {
+      "python": "Proficient in scripting, automation, and data science.",
+      "javascript": "Robust web development and dynamic interactions.",
+      "java": "Enterprise applications, Spring Boot, and backend APIs.",
+      "cplusplus": "Efficient algorithms and competitive programming.",
+      "html5": "Modern semantic markup for web.",
+      "css3": "Responsive, styled UI/UX.",
+      "reactjs": "Building interactive and scalable UIs.",
+      "nodejs": "Fast, scalable backend JavaScript.",
+      "expressjs": "RESTful APIs with Node.js.",
+      "tensorflow": "Machine learning and deep learning models.",
+      "keras": "Machine learning and deep learning models.",
+      "opencv": "Computer vision and image processing.",
+      "springboot": "Robust Java backend microservices.",
+      "typescript": "Typed JavaScript for safer coding.",
+      "aws": "Building cloud-native apps and infra.",
+      "docker": "Containerization for scalable deployments.",
+      "sqlmysql": "Handling relational databases and queries.",
+      "mongodb": "Document store and NoSQL techniques."
+    }
+  },
+
+
+
+   "socials": {
+    "title": "Socials",
+    "socials.instagram": {
+      "ariaLabel": "Instagram"
+    },
+    "socials.discord": {
+      "ariaLabel": "Discord"
+    },
+    "socials.twitter": {
+      "ariaLabel": "Twitter"
+    }
+    
+  },
+
+
+
+   "timeline": {
+    "title": "Work Experience & Education Timeline",
+    "idemia": {
+      "name": "IDEMIA",
+      "title": "Intern – Facial Recognition/Face Comparison",
+      "techStack": "Python, OpenCV, Machine Learning",
+      "summaryPoints": [
+        "Working with facial recognition and comparison algorithms.",
+        "Building computer vision systems for security."
+      ]
+    },
+    "valu5": {
+      "name": "ValU5Healthcare Ltd (Medimag)",
+      "title": "SDE Intern – Blockchain-based Healthcare DB",
+      "techStack": "Node.js, MongoDB, Blockchain",
+      "summaryPoints": [
+        "Implemented blockchain-based medical data storage.",
+        "Optimized secure API endpoints for fast data retrieval."
+      ]
+    },
+    "hitachi": {
+      "name": "Hitachi Systems Pvt Ltd",
+      "title": "Intern – AWS Cloud",
+      "techStack": "AWS, DevOps, Cloud Architecture",
+      "summaryPoints": [
+        "Managed AWS resources for business applications.",
+        "Automated deployments and optimized infra."
+      ]
+    },
+    "vit": {
+      "name": "Vellore Institute of Technology, Bhopal",
+      "title": "B.Tech, Computer Science & Engineering",
+      "techStack": "",
+      "summaryPoints": [
+        "CGPA: ",
+        "2022 – 2026 (Expected)"
+      ]
+    },
+    "iitm": {
+      "name": "IIT Madras",
+      "title": "B.Sc. Data Science (Part Time)",
+      "techStack": "",
+      "summaryPoints": [
+        "2023 – 2026 (Expected)"
+      ]
+    },
+    "arya12": {
+      "name": "Arya Sr. Sec. School, Charkhi Dadri",
+      "title": "12th Standard",
+      "techStack": "",
+      "summaryPoints": [
+        "Percentage: 90.4%",
+        "2022"
+      ]
+    },
+    "arya10": {
+      "name": "Arya Sr. Sec. School, Charkhi Dadri",
+      "title": "10th Standard",
+      "techStack": "",
+      "summaryPoints": [
+        "Percentage: 89.6%",
+        "2020"
+      ]
+    }
+  },
+
+
+
+
+   "workPermit": {
+    "title": "Work Permit",
+    "nationality": "Nationality",
+    "nationalityValue": "Indian",
+    "visaStatus": "Valid",
+    "summary": "I am currently eligible to work in India.",
+    "additionalInfo": "Legal age to work."
+  },
+
+
+
+
+   "profileBanner": {
+    "headline": "My Personal Portfolio",
+    "profileSummary": "Welcome to my portfolio. Here are my featured projects.",
+    "buttons": {
+      "resume": "Resume",
+      "linkedin": "LinkedIn"
+    },
+    "overlayClose": "Close overlay",
+    "overlayMessage": "Use desktop view / laptop for better view experience"
+  },
+
+
+
+
+  "topPicks": {
+    "title": "Today's Top Picks for",
+    "like": "Like",
+    "unlike": "Unlike",
+    "workPermit": "Work Permit",
+    "skills": "Skills",
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "recommendations": "Recommendations",
+    "projects": "Projects",
+    "contactMe": "Contact Me",
+    "socials": "Socials",
+    "placesVisited": "Places Visited",
+    "moviesReviews": "Movies Reviews & More",
+    "languagesKnown": "Languages Known",
+    "reading": "Reading"
+  },
+  "profiles": {
+    "recruiter": "Recruiter",
+    "developer": "Developer",
+    "stalker": "Stalker",
+    "adventurer": "Adventurer"
+  },
+
+
+
+
+   "continueWatching": {
+    "title": "Continue Watching for",
+    "like": "Like",
+    "unlike": "Unlike",
+    "languagesKnown": "Languages Known",
+    "reading": "Reading",
+    "extraCurricular": "Extra Curricular",
+    "contactMe": "Contact Me",
+    "moviesReviews": "Movies Reviews & More",
+    "dailyNewsUpdates": "Daily News Updates",
+    "certifications": "Certifications",
+    "socials": "Socials"
+  },
+  "profiles": {
+    "recruiter": "Recruiter",
+    "developer": "Developer",
+    "stalker": "Stalker",
+    "adventurer": "Adventurer"
+  },
+
+
+
+
+
+
+  "navbar": {
+    "home": "Home",
+    "professional": "Professional",
+    "skills": "Skills",
+    "projects": "Projects",
+    "hireMe": "Hire Me",
+    "toggleLanguageAria": "Toggle Language",
+    "profileAlt": "Profile"
+  },
+
+
+
+
+  "browse": {
+    "whosWatching": "Who's Watching?",
+    "toggleLanguageAria": "Toggle Language"
+  },
+  "profiles": {
+    "recruiter": "Recruiter",
+    "developer": "Developer",
+    "stalker": "Stalker",
+    "adventurer": "Adventurer"
+  }
+
+
+
+
+
+
+
+
+
+ 
+
+}
+
+
+
+
+
+
+
+
