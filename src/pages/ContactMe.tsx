@@ -450,7 +450,7 @@ const StyledWrapper = styled.div`
     left: 0 !important;
     padding: 2px !important;
     
-    margin-left: 210px !important;
+    margin-left: 190px !important;
   }
   .card .profile-pic {
     width: calc(100% - 6px) !important;
