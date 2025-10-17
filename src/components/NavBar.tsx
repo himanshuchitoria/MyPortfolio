@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaHome, FaBriefcase, FaTools, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
-import i18n from '../i18n'; // Adjust path based on your structure
+import i18n from '../i18n'; 
 import './Navbar.css';
 import netflixLogo from '../images/logo-2.png';
 import blueImage from '../images/blue.jpg';
+import SupportChat from './supportchat';
 
 const Navbar: React.FC = () => {
   const { t } = useTranslation();
@@ -89,6 +90,8 @@ const Navbar: React.FC = () => {
           <li><Link to="/contact-me" onClick={closeSidebar}><FaEnvelope /> {t('navbar.hireMe')}</Link></li>
         </ul>
       </div>
+      <SupportChat />
+
     </>
   );
 };
