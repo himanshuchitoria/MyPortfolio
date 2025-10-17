@@ -15,7 +15,7 @@ const SupportChat: React.FC = () => {
   const [sessionId, setSessionId] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const backendUrl = 'http://localhost:8000'; // adjust if needed
+  const backendUrl = 'https://portfolio-backend-uroc.onrender.com'; 
 
   // Create session and add bot greeting
   useEffect(() => {
@@ -254,3 +254,4 @@ const SupportChat: React.FC = () => {
 };
 
 export default SupportChat;
+
