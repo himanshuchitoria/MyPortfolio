@@ -26,20 +26,20 @@ const continueWatchingConfig: Record<ProfileType, ContinueWatchItem[]> = {
     { titleKey: "continueWatching.dailyNewsUpdates", imgSrc: "https://cdn.pixabay.com/photo/2021/10/14/23/23/typewriter-6710556_640.jpg", link: "/newsupdates" }
   ],
   developer: [
-    { titleKey: "continueWatching.languagesKnown", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { titleKey: "continueWatching.reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { titleKey: "continueWatching.extraCurricular", imgSrc: "https://th.bing.com/th/id/OIP.3UQ-mStHab6uUpSrhV285AHaGn?w=184&h=180&c=7&r=0&o=7&pid=1.7&rm=3", link: "/blogs" },
-    { titleKey: "continueWatching.certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" }
+    { titleKey: "continueWatching.languagesKnown", imgSrc: "https://images.pexels.com/photos/8015666/pexels-photo-8015666.jpeg", link: "/music" },
+    { titleKey: "continueWatching.reading", imgSrc: "https://images.pexels.com/photos/582070/pexels-photo-582070.jpeg", link: "/reading" },
+    { titleKey: "continueWatching.extraCurricular", imgSrc: "https://images.pexels.com/photos/5896676/pexels-photo-5896676.jpeg", link: "/blogs" },
+    { titleKey: "continueWatching.certifications", imgSrc: "https://images.pexels.com/photos/8386713/pexels-photo-8386713.jpeg", link: "/certifications" }
   ],
   stalker: [
-    { titleKey: "continueWatching.reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { titleKey: "continueWatching.extraCurricular", imgSrc: "https://th.bing.com/th/id/OIP.3UQ-mStHab6uUpSrhV285AHaGn?w=184&h=180&c=7&r=0&o=7&pid=1.7&rm=3", link: "/blogs" },
-    { titleKey: "continueWatching.dailyNewsUpdates", imgSrc: "https://th.bing.com/th/id/OIP.-O8RPEDR_DR10XXnY1iRzwHaEK?w=304&h=180&c=7&r=0&o=7&pid=1.7&rm=3", link: "/newsupdates" }
+    { titleKey: "continueWatching.reading", imgSrc: "https://images.pexels.com/photos/18638955/pexels-photo-18638955.jpeg", link: "/reading" },
+    { titleKey: "continueWatching.extraCurricular", imgSrc: "https://images.pexels.com/photos/12196701/pexels-photo-12196701.jpeg", link: "/blogs" },
+    { titleKey: "continueWatching.dailyNewsUpdates", imgSrc: "https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg", link: "/newsupdates" }
   ],
   adventurer: [
-    { titleKey: "continueWatching.reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { titleKey: "continueWatching.certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { titleKey: "continueWatching.contactMe", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" },
+    { titleKey: "continueWatching.reading", imgSrc: "https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg", link: "/reading" },
+    { titleKey: "continueWatching.certifications", imgSrc: "https://images.pexels.com/photos/2293027/pexels-photo-2293027.jpeg", link: "/certifications" },
+    { titleKey: "continueWatching.contactMe", imgSrc: "https://images.pexels.com/photos/19891092/pexels-photo-19891092.jpeg", link: "/contact-me" },
     { titleKey: "continueWatching.socials", imgSrc: "https://th.bing.com/th/id/OIP.e13y_Fq1KhIhEMpk8p8vrAHaE8?w=230&h=180&c=7&r=0&o=7&pid=1.7&rm=3", link: "/socials" }
   ]
 };
