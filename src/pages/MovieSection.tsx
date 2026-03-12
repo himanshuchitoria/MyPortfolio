@@ -63,7 +63,7 @@ const Banner: React.FC<{ featured?: Movie }> = ({ featured }) => {
     >
       <div className="banner-contents">
         <h1 className="banner-title">STRANGER THINGS</h1>
-        <h2 className="banner-desc"></h2>
+        <h2 className="banner-desc">.</h2>
         <div className="banner-buttons">
           <a href="https://example.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
           <button className="banner-btn play-btn">
@@ -392,3 +392,4 @@ const MovieSection: React.FC = () => {
 };
 
 export default MovieSection;
+
