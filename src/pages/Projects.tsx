@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, FaGoogle, FaJava, FaPython } from 'react-icons/fa';
-import { SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiJquery, SiFirebase, SiChartdotjs, SiOpenai, SiFastapi } from 'react-icons/si';
-import { GrDeploy } from "react-icons/gr";
+import { FaReact, FaNodeJs, FaAws, FaDocker, FaGithub, FaGoogle, FaJava, FaPython } from 'react-icons/fa';
+import { SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiFirebase, SiChartdotjs, SiOpenai, SiFastapi } from 'react-icons/si';
 import './Projects.css';
 import portfolio from '../images/portfolio.png';
 import amazon from '../images/amazon.png';
