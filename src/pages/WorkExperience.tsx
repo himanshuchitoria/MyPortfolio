@@ -22,7 +22,7 @@ const timeLineData: TimelineItem[] = [
     title: "timeline.idemia.title",
     techStack: "timeline.idemia.techStack",
     summaryPoints: ["timeline.idemia.summaryPoints.0", "timeline.idemia.summaryPoints.1"],
-    dateRange: "2025 – Present",
+    dateRange: "March 2025 – May 2025",
     logo: idemiaLogo
   },
   {
